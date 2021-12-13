@@ -49,12 +49,7 @@ function AddItem(props) {
             <div className="row"><label htmlFor="file_field">Upload Resume:</label>    
                 <input type="file" id="file_field" value={file} onChange={ (e) => setFile(e.target.value)}></input>
             </div>
-            {/* <div className="row"><label htmlFor="price_field">Price:</label>
-                <input id="price_field" className = "form-control" type="number" value = {price} onChange={ (e) => setPrice(e.target.value)}></input></div>
-            <div className="row"><label htmlFor="type_field">Type:</label>
-                <input id="type_field" className = "form-control" type="text" value={type} onChange = { (e) => setType(e.target.value)}></input></div>
-            <div className="row"><label htmlFor="brand_field">Brand:</label>
-                <input id="brand_field" className = "form-control" type="text" value = {brand} onChange = { (e) => setBrand(e.target.value)}/></div> */}
+            
             <div className="row mt-3">    
                 <button type="button" className="btn btn-primary" onClick = {addItemButtonPressed}>Create Interview</button>
             </div>
