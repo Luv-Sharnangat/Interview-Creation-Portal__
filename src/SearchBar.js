@@ -3,13 +3,7 @@ export default SearchBar;
 
 function SearchBar(props) {
     const [name, setName] = useState("");
-    // const [sname, ssetName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [phone, setPhone] = useState("");
-    // const [date, setDate] = useState("");
-    // const [locations, setLocations] = useState("");
-    // const [title, setTitle] = useState("");
-
+    
 
     const SearchButtonPressed = () => {
         props.updateSerchParams({name: name});
