@@ -23,12 +23,7 @@ function SearchBar(props) {
             <div className = "row">
                 <div className = "col"><label htmlFor="name_field">Name:</label>
                 <input id="name_field" className = "form-control" type="text" value={name} onChange={ (e) => setName(e.target.value)}></input></div>
-                {/* <div className = "col"><label htmlFor="price_field">Price:</label>
-                <input id="price_field" className = "form-control" type="number" value = {price} onChange={ (e) => setPrice(e.target.value)}></input></div>
-                <div className = "col"><label htmlFor="type_field">Type:</label>
-                <input id="type_field" className = "form-control" type="text" value={type} onChange = { (e) => setType(e.target.value)}></input></div>
-                <div className = "col"><label htmlFor="brand_field">Brand:</label>
-                <input id="brand_field" className = "form-control" type="text" value = {brand} onChange = { (e) => setBrand(e.target.value)}/></div> */}
+                
             </div>
             <div className = "row mt-3">
                 <div className = "col-4" />
